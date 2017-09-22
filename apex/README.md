@@ -1,90 +1,92 @@
 ## IMPORTANT: How to prepare for this Workshop
 
-**First**, ***Get an Oracle Cloud Account*** 
-- Oracle provides several methods for gaining access to Oracle Cloud Accounts used to complete the Labs in this Hands-on-Workshop. 
-- For some workshop events, cloud environments will be provided. 
-- For others events (e.g. **Oracle Code**), or when completing this workshop in a self-service model, you must gain access to your own Trial account. Trial accounts can be obtained at [Try It](https://shop.oracle.com/r/promo?sc=codeny_hol2_cloudpromotion) 
-- If you are attending an Oracle sponsored event, please **review your Event invitation** for more instruction on how to gain access to your Workshop Account.
+**First**, ***Get an Oracle Application Express Workspace and Workspace Administrator/Developer User Account*** 
+- Oracle provides several options for gaining access to an Oracle Application Express Workshop used to complete the Labs in this Hands-on-Workshop.
+
+[Add any other instructions if required] 
+
 
 **Second**, ***Configure your Client Environment***
-- Your client environment **must be configured prior** to attempting the Hands-on-Workshop labs. 
-- You have two options for configuring your workshop client environment. 
-- ***Option 1:*** You can install Virtual Box and download and run a pre-configured **Virtual Box Image**.
-- ***Option 2:*** You can **install and configure** Eclipse, Brackets and Git on your laptop. 
-- Both **Option 1 and 2 are documented** in the [Trial Account Student Guide](StudentGuide.md). ***Please follow the instruction in the Student Guide*** prior to attempting the Labs. 
+Select the most appropriate option to get access to a Workspace from the list below:
+- [apex.oracle.com](http://apex.oracle.com/) - Request a workspace on Oracle’s free 'development only' service for evaluating the technology.
+- [Oracle Database Cloud Service](https://cloud.oracle.com/database) - Request service on the Oracle Database Cloud Service. Once provisioned, you will be provided access to your cloud service which includes an Oracle Application Express Workspace.
+- [Oracle Database 11g Express Edition](http://www.oracle.com/technetwork/products/express-edition/overview/index.html) - Download Oracle XE and install on your laptop or desktop machine and then [download](http://www.oracle.com/technetwork/developer-tools/apex/downloads/index.html) and install the latest Oracle Application Express release.
+- [Oracle VM Virtual Box](http://www.oracle.com/technetwork/database/enterprise-edition/databaseappdev-vm-161299.html) - Download Oracle VM Virtual Box and then import the [Database Application Development Appliance](http://www.oracle.com/technetwork/database/enterprise-edition/databaseappdev-vm-161299.html) which includes Oracle Database 12c, Application Express and a number of labs pre-installed.
+
+The **apex-course-labs.zip** file extracted into your working directory.
+
+The apex-course-labs.zip file includes the scripts required by some of the steps in the hands-on labs. For each unit, an application export file is also included. This application export is basically the completed application for all the hands-on labs in the unit. If you are unable to perform the hands-on labs in any unit, you can simply import and install the application export file for that particular unit. For example, application export for unit 16 is demo projects app-export-unit 16.sql.
+
+![Snap3.jpeg](hol_overivew_images/media/image3.png) 
 
 **Third**, ***How to View the Lab Guides***
 
-- The Labguides are best viewed using the Workshop's [GitHub Pages Website URL](https://oracle.github.io/learning-library/workshops/microservices) 
+- The Labguides are best viewed using the Workshop's [GitHub Pages Website URL](https://github.com/joydeepUA/workshops/blob/master/apex) 
 
 - Once you are viewing the Workshop's GitHub Pages website, you can see a list of Lab Guides at any time by clicking on the **Menu Icon**
 
     ![](images/WorkshopMenu.png)  
 
-- To log issues and view the Lab Guide source, go to the [github oracle](https://github.com/oracle/cloud-native-devops-workshop/tree/master/microservices) repository.
+- To log issues and view the Lab Guide source, go to the [github oracle](https://github.com/joydeepUA/workshops/blob/master/apex) repository.
 
 - Visit the [Workshop Interactive Labguide](http://launch.oracle.com/?cloudnative) for a visual overview of the workshop content. 
 
 **Fourth**, ***Cloud Accelerate for the Developer***
 
-This Cloud Native Microservices Workshop is part of a **Free** Sales Program that Oracle offers. The Program is called **Cloud Accelerate for the Developer**. During this program Oracle can work with you to do the following:
+This Oracle Application Express Workshop is part of a **Free** sales program that Oracle offers. The program is called **Cloud Accelerate for the Developer**. During this program Oracle can work with you to do the following:
 
 - Understand your Development Interests and Capabilities
 - Build your personalized Enablement Plan, including Hands-on Technical Enablement.
 - Help you Exercise your acquired knowledge. 
 - If you are interested, simply [Click on this Link](https://launch.oracle.com/?developeraccelerate), and provide us with your contact information. 
 
-## DevOps and Cloud Native Microservices Workshop
+## Oracle Application Express: Developing Database Web Applications
 
-This Oracle Public Cloud DevOps Cloud Native Microservices workshop will walk you through the Software Development Lifecycle (SDLC) for a Cloud Native project, during which you will create and use several Microservices. During this workshop you will take on the role of 3 personae. As the first persona - the Project Manager - you will create the projects, add tasks and features to be worked on, and assign tasks to developers.  The Project Manager will then start the initial sprint. The Java Developer persona will develop a new twitter feed service that will allow for retrieval and filtering of twitter data. The JavaScript Developer persona will develop a new Twitter Marketing UI that will display the twitter data to allow for analysis.  During the workshop, you will get exposure to Oracle Developer Cloud Service and Oracle Application Container Cloud Service.
+This series of hands-on labs is designed to teach you how to build applications using Application Express. The primary vehicle for teaching is a single use case which is expanded on with each lab.
+
+The primary use case is that your team tracks projects you are currently working on. Rather than using a spreadsheet or some commercial project tracking tool you have been tasked with building a Web application so that the team has a custom application that meets everyone's requirements. The DBA has created a script which creates various tables and populates them with the current data.
+
+In this series of hands-on-labs, you also quickly build two simple applications. You use a spreadsheet to create the Budget App application that allows everyone to maintain the project cost and budget data. The Hardware application is used to make purchasing decisions of the hardware in different departments. You will then greatly improve these two applications and utilize a number of techniques such as Interactive Grids, and Interactive Reports.
 
 ## Workshop Details
 
 **Reference the following Lab Guides by opening their Documentation Files:**
 
-## Lab 100: Agile Project Management
+## Lab 100: Getting Started with Oracle Application Express
 
-**Documentation**: [CloudNative100.md](CloudNative100.md)
-
-### Objectives
-
-- Create Initial Project
-- Add Users to Project
-- Create Product Issues
-- Create Issues for Twitter Feed Microservice
-- Create Issues for Twitter Feed Marketing UI
-- Create Agile Board and initial Sprint
-- Add Issues to Sprint
-
-## Lab 200: Continuous Delivery of Java Microservices
-
-**Documentation**: [CloudNative200.md](CloudNative200.md)
+**Documentation**: [hol01_v1.0.2.md](CloudNative100.md)
 
 ### Objectives
 
-- Access Developer Cloud Service
-- Import Code from external Git Repository
-- Import Project into Eclipse
-- Build and Deploy project using Developer Cloud Service and Oracle Application Container Cloud Service
+- Log in to Oracle Application Express Workspace
+- Navigate through the major components of Oracle Application Express
 
-## Lab 300: Cloud Native Rapid JavaScript Development with node.js
+## Lab 200: Using SQL Workshop
 
-**Documentation**: [CloudNative300.md](CloudNative300.md)
+**Documentation**: [hol02_v1.0.2.md](CloudNative200.md)
 
 ### Objectives
 
-- Access Developer Cloud Service
-- Import Code from external Git Repository
-- Import Project into Brackets
-- Build and Deploy project using Developer Cloud Service and Oracle Application Container Cloud Service
+- Load tables and data
+- Create a look up table
 
-## Lab 400:  Cloud Native Developer Cloud Service Administration
 
-**Documentation**: [CloudNative400.md](CloudNative400.md)
+## Lab 300: Creating a Database Application
+
+**Documentation**: [hol03_v1.0.2.md](CloudNative300.md)
 
 ### Objectives
 
-- Access Developer Cloud Service
-- Complete Sprint
-- Run Backlog and Sprint Reports
-- Review Administrative Tasks
+- Creating a Database Application from Scratch
+- Creating a Database Application from a Spreadsheet
+- Creating a Websheet Application
+
+## Lab 400:  Managing Pages in Page Designer
+
+**Documentation**: [hol04_v1.0.2.md](CloudNative400.md)
+
+### Objectives
+
+- Create a Dashboard
+- Navigate through and review the page designer panes
+- Add a chart region and edit the chart attributes
