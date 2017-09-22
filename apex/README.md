@@ -17,15 +17,11 @@ The **apex-course-labs.zip** file extracted into your working directory.
 
 The apex-course-labs.zip file includes the scripts required by some of the steps in the hands-on labs. For each unit, an application export file is also included. This application export is basically the completed application for all the hands-on labs in the unit. If you are unable to perform the hands-on labs in any unit, you can simply import and install the application export file for that particular unit. For example, application export for unit 16 is demo projects app-export-unit 16.sql.
 
-![Snap3.jpeg](hol_overivew_images/media/image3.png) 
-
 **Third**, ***How to View the Lab Guides***
 
 - The Labguides are best viewed using the Workshop's [GitHub Pages Website URL](https://github.com/joydeepUA/workshops/blob/master/apex) 
 
 - Once you are viewing the Workshop's GitHub Pages website, you can see a list of Lab Guides at any time by clicking on the **Menu Icon**
-
-    ![](images/WorkshopMenu.png)  
 
 - To log issues and view the Lab Guide source, go to the [github oracle](https://github.com/joydeepUA/workshops/blob/master/apex) repository.
 
