@@ -19,7 +19,7 @@ The apex-course-labs.zip file includes the scripts required by some of the steps
 
 **Third**, ***How to View the Lab Guides***
 
-- The Labguides are best viewed using the Workshop's [GitHub Pages Website URL](https://github.com/joydeepUA/workshops/blob/master/apex) 
+- The Labguides are best viewed using the Workshop's [GitHub Pages Website URL](https://joydeepua.github.io/workshops) 
 
 - Once you are viewing the Workshop's GitHub Pages website, you can see a list of Lab Guides at any time by clicking on the **Menu Icon**
 
