@@ -50,7 +50,7 @@ In this series of hands-on-labs, you also quickly build two simple applications.
 
 ## Lab 100: Getting Started with Oracle Application Express
 
-**Documentation**: [hol01_v1.0.2.md](CloudNative100.md)
+**Documentation**: [hol01_v1.0.2.md](hol01_v1.0.2.md)
 
 ### Objectives
 
@@ -59,7 +59,7 @@ In this series of hands-on-labs, you also quickly build two simple applications.
 
 ## Lab 200: Using SQL Workshop
 
-**Documentation**: [hol02_v1.0.2.md](CloudNative200.md)
+**Documentation**: [hol02_v1.0.2.md](hol02_v1.0.2.md)
 
 ### Objectives
 
@@ -69,7 +69,7 @@ In this series of hands-on-labs, you also quickly build two simple applications.
 
 ## Lab 300: Creating a Database Application
 
-**Documentation**: [hol03_v1.0.2.md](CloudNative300.md)
+**Documentation**: [hol03_v1.0.2.md](hol03_v1.0.2.md)
 
 ### Objectives
 
@@ -79,7 +79,7 @@ In this series of hands-on-labs, you also quickly build two simple applications.
 
 ## Lab 400:  Managing Pages in Page Designer
 
-**Documentation**: [hol04_v1.0.2.md](CloudNative400.md)
+**Documentation**: [hol04_v1.0.2.md](hol04_v1.0.2.md)
 
 ### Objectives
 
